@@ -4,7 +4,7 @@ DBT out of the box does not allow you to use complicated DML or DDL in a script 
 
 This `script` materialization macro will allow you to create models in DBT by writing an SQL script containing any logic you choose. It allows you to use `ref` and `source` macros to have your model built as you would any other model. 
 
-As the saying goes, with great power comes great responsability. You dont have any of the guardrails that DBT provides here. So you script needs to take care of doing the creation of tables if they dont exist as well as have custom logic for full refreshes.
+As the saying goes, with great power comes great responsibility. You don't have any of the guardrails that DBT provides here. So you script needs to take care of doing the creation of tables if they don't exist as well as have custom logic for full refreshes.
 
 # Handling full and incremental refreshes
 
